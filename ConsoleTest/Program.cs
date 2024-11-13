@@ -13,7 +13,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            var fileName = "MLstartConfig.json";
+            var fileName = "MLstartConfig.json";dddddddddddddddd
             var content = @"{ ""Test"": ""123""}";
             File.WriteAllText(fileName, content);
             IConfiguration configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile(fileName).Build();
